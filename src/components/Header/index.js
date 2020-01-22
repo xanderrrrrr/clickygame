@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../Footer";
 
 class Header extends Component {
     // this will set the initial state
@@ -19,6 +20,7 @@ class Header extends Component {
                 <img src="images/mort.webp"/>
                 <img src="images/teddy.webp"/>
                 <img src="images/tina.webp"/>
+                <Footer/>
             </div>
         );
     }
