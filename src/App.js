@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/Header";
+import Character from "./components/Character";
+import Wrapper from "./components/Wrapper";
 
 const characters = [
   {
@@ -56,8 +57,35 @@ const characters = [
 ]
 
 
-function App() {
-  return <Header characters={characters}/>
+class App extends React.Component {
+  state = {
+    characters
+  };
+
+  handleClick = characterID => {
+    console.log(characterID);
+  }
+
+  render() {
+    let characterCards = this.state.characters.map((item) =>
+    <Character
+      name = {item.name}
+      image = {item.imageURL}
+      key = {item.id}
+      id = {item.id}
+      handleClick = {this.handleClick}
+    />
+  )
+  
+  
+    return (
+      <div>
+        <Wrapper>
+          {characterCards}
+        </Wrapper>
+      </div>
+    );
+  }
 }
 
 export default App;
