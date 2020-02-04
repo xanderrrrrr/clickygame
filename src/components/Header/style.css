@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    color: white;
+    background-color: #393536;
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 99;
+   
+    
+}
+
+#headerLeft { 
+    font-weight: bolder;
+}
+
+#headerRight {
+    font-style: italic;
+}

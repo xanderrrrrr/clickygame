@@ -4,8 +4,8 @@ import "./style.css"
 class Footer extends Component {
     render() {
         return (
-            <footer class="footer">
-                <div class="container">
+            <footer className="footer">
+                <div className="container">
                     <p>Clicky Game</p>
                 </div>
             </footer>

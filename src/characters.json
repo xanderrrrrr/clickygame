@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Bob",
+      "imageURL": "images/bob.webp",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "Linda",
+      "imageURL": "images/linda.webp",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "Frond",
+      "imageURL": "images/frond.webp",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "Gene",
+      "imageURL": "images/gene.webp",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "jimmy jr",
+      "imageURL": "images/jimmy_jr.webp",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "Jimmy Pesto",
+      "imageURL": "images/jimmy_pesto.webp",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "Louise",
+      "imageURL": "images/louise.webp",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "Mort",
+      "imageURL": "images/mort.webp",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "Teddy",
+      "imageURL": "images/teddy.webp",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "Tina",
+      "imageURL": "images/tina.webp",
+      "clicked": false
+    }
+  ]
