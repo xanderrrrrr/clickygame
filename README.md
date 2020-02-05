@@ -15,6 +15,6 @@ All
 
 ## See it in action
 
-[Click here!]https://xanderrrrrr.github.io/clickygame/)
+[Click here!](https://xanderrrrrr.github.io/clickygame/)
 
 ![](public/images/gene.webp)
